@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    
+           <div id="wrapper">
+
+                   <h1 id="wrapheading">WEATHER APP</h1>
+                   <div id="teb" data-tab>
+                      <p data-yourweather>Your Weather</p>
+                       <p data-searchweather>Search Weather</p>
+                    
+                    </div>
+              <div class="weather-information">
+
+                         <div id="grantLocat" class="sub grantLocat" data-grantlocationcon>
+
+                             <img src="location.png" alt="" height="" width="80px">
+                                <h1>Grant Location Acess</h1>
+                                <h3>Allow acess to get Weather information</h3>
+                                 <button id="grantacess">grant acess</button>
+
+
+                           </div>
+
+
+
+
+                       <form action="" data-searchForm id="formSearch" class="formcon for">
+                        <input type="text" id="inputCity" placeholder="search for city">
+                            <button id="btnSearch"><img src="search.png" alt="" height="20px"></button>
+
+                         </form>
+
+                        <div  class="sub loadata" data-loadingContain>
+                             <img src="loading.gif" alt="" height="80px">
+                             <p >loading</p>
+
+
+                         </div> 
+                       
+                          
+                         
+
+
+
+                        <div class="userIn userCon" data-userinfocontainer >
+                           <div class="counde">
+                              <p id="countryName"></p>
+                               <img src="" alt="" height="20px" data-countryFlag>
+                           </div>
+                            <p class="wedes" data-weatherdes></p>
+                            <img class="weimg" height="80px" data-weatherimg src="" alt="">
+                            <p class="datem" data-temper></p>
+                            <div class="tempdetail">
+                               <div class="conm windspeed">
+                                   <img src="wind.png" alt="" height="60">
+                                    <p data-wispeedtitle>WINDSPEED</p>
+                                    <p data-speedNumber></p>
+                               </div>
+                               <div class="conm humidity">
+                                 <img src="humidity.png" alt="" height="60">
+                                 <p  data-humidtitle>HUMIDITY</p>
+                                 <p  data-humidNumber></p>
+                               </div>
+                               <div class="conm cloud">
+                                 <img src="cloud.png" alt="" height="60">
+                                 <p  data-cloudtitle>CLOUD</p>
+                                 <p  data-cloudNumber></p>
+                               </div>
+
+                             </div>
+                          </div> 
+
+
+
+               </div>
+            </div>
+
+
+        
+
+       
+
+           
+
+
+            
+
+
+  <script src="first.js"></script>
+
+</body>
+</html>
