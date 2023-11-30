@@ -1,0 +1,286 @@
+:root{
+    
+    --colorDark1: #112D4E;
+    --colorDark2: #3F72AF;
+    --colorLight1: #DBE2EF;
+    --colorLight2: #F9F7F7;
+
+}
+*{
+
+  
+margin: 0;
+padding: 0;
+ 
+  font-family:  sans-serif;
+ 
+      
+}
+#wrapper{
+
+      width: 100vw;
+      height: 900px;
+       
+      background-image: linear-gradient(160deg,#112d4e 0%,#3f72af 100%);
+     
+}
+#wrapheading{
+
+      color: var(--colorLight2);
+      text-align: center;
+      padding-top: 20px;
+
+
+}
+#teb{
+
+       display: flex;
+       flex-direction:row;
+       justify-content: space-between;
+       align-items: center;
+       width: 90%;
+       max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 4rem;
+      color: var(--colorLight2);
+      font-size: 0.87rem;
+      letter-spacing: 1.75px;
+
+
+
+}
+.weather-information{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         gap: 40px; 
+         margin-top: 40px;
+}
+.sub{
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+      gap: 10px;
+      color: var(--colorLight2);
+
+}
+.grantLocat{
+
+     display: none;
+     
+}
+.grantLocat.active{
+      display: flex;
+}
+.grantLocat h1{
+
+       font-size: 1.75rem;
+       font-weight: 600;
+
+
+
+}
+.grantLocat h3{
+
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.75px;
+}
+#grantacess{
+
+   
+        border: none;
+        background-color: var(--colorDark2);
+        color: var(--colorLight2);
+        border-radius: 0.5rem;
+       padding-left:20px;
+       padding-right: 20px;
+       padding-top: 8px;
+       padding-bottom: 8px;
+
+
+}
+
+.loadata{
+
+        display: none;
+        
+}
+.loadata.active{
+
+       display: flex;
+
+}
+.loadata p{
+
+
+        text-transform: capitalize;
+      
+}
+
+.userIn{
+
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     color: var(--colorLight2);
+   
+    
+
+
+
+}
+.userCon{
+
+        display: none;
+}
+.userCon.active{
+      display: flex;
+}
+.counde{
+
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 0.5rem;
+         margin-top: -30px;
+         text-transform: capitalize;
+}
+#countryName{
+      font-size: 2rem;
+}
+.wedes{
+
+       text-align: center;
+      text-transform: capitalize;
+      font-size: 1.5rem;
+      font-weight: 200;
+}
+.weimg{
+
+        
+           display: flex;
+           justify-content: center;
+           width: 90px;
+           height: 90px;
+           margin-left: auto;
+           margin-right: auto;
+         
+
+}
+.datem{
+
+     text-align: center;
+     font-size: 3rem;
+     font-weight: 700;
+
+
+}
+.tempdetail{
+
+        display: flex;
+        flex-direction:row;
+        gap: 10px;
+        margin-top: 30px;
+        width: 100p;
+}
+.conm{
+
+       display: flex;
+       flex-direction: column;
+      align-items: center;
+     padding: 1rem;
+     height: 2;
+   width: 30%;
+   max-width: 200px;
+   background-color: rgba(219,226,239,0.5);
+   border-radius: 0.2rem;
+   
+   justify-content: space-between;
+
+
+}
+.conm p:first-of-type{
+
+   font-size: 1.15rem;
+   text-transform: capitalize;
+
+}
+.conm p:last-of-type{
+
+          font-size:1rem;
+          font-weight:200;
+
+}
+.for{
+
+   display:flex ;
+   gap: 10px;
+   justify-content: space-between;
+   margin-top: 10px;
+   margin-left: -10px;
+   margin-bottom: 3rem;
+
+
+}
+.formcon{
+
+     display: none;
+
+}
+.formcon.active{
+
+      display: flex;
+}
+.for input{
+
+       all: unset;
+      padding: 4px;
+      border-radius:10px;
+      border: none;
+      width: 300px;
+      background-color: rgba(219,226,239,0.5);
+      
+}
+.for input::placeholder{
+
+      color: var(--colorLight2);
+}
+.for input:focus{
+
+        outline: none;
+        
+}
+#btnSearch{
+
+
+       
+       background-color: var(--colorDark2);
+       border: none;
+       padding: 4px;
+       border-radius:50%;
+       height: 30px;
+       width: 30px;
+
+
+
+}
+
+
+
+
+.current-tab{
+
+
+      background-color: rgba(219,226,239,0.5);
+      border-radius: 4px;
+      padding: 5px;
+
+}
+
+
+
